@@ -10,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity // Annotation to simplify creating an entity, which is a lightweight persistence domain object. Typically, an entity represents a table in a relational database, and each entity instance corresponds to a row in that table.
-public class Jokes {
+public class Jokes { // POJO is the foundation of making a data base in Java 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
